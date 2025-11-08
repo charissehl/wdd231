@@ -1,0 +1,29 @@
+/* ===========COLOUR SCHEME============ 
+White
+CED0C3 - Pale 
+B2B5AB - Light 
+606556 - Mid Silver 
+27321185 - Rich green 
+0E1308 - Dark brown 
+ 010101 - Blackish */
+
+/* ========= SITE WIDE ========== */
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+/* ======== HEADER -======== */
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px 0 5px 10px;
+    border-bottom: solid 1px #ddd;
+    column-gap: 9px;
+}
